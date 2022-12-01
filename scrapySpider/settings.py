@@ -95,9 +95,16 @@ DOWNLOAD_FAIL_ON_DATALOSS = False
 REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
 TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
 MEDIA_ALLOW_REDIRECTS = True
-import os    
-path = r'C:\xampp\htdocs\scrapySpider\scrapySpider'
-if not os.path.exists(path):
-    os.makedirs(path)
-FILES_STORE = path[:-1]  
+#import os    
+#path = r'C:\xampp\htdocs\scrapySpider\scrapySpider'
+#if not os.path.exists(path):
+#    os.makedirs(path)
+
+from pathlib import Path
+
+#path: str = "DownloadsFolders"
+#osDir = Path(path)
+#absolutePath: str = str(Path.absolute(osDir))
+
+FILES_STORE = "DownloadsFolders"
 DOWNLOAD_DELAY = 1

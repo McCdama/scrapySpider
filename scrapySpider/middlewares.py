@@ -50,6 +50,7 @@ class ScrapyspiderSpiderMiddleware:
 
         # Must return only requests (not items).
         for r in start_requests:
+            spider.logger.info('Starting request: %s' % r)
             yield r
 
     def spider_opened(self, spider):
@@ -87,6 +88,7 @@ class ScrapyspiderDownloaderMiddleware:
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
+        spider.logger.info('Getting response: %s' % response)
         return response
 
     def process_exception(self, request, exception, spider):
