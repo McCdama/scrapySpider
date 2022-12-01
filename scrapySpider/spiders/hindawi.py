@@ -18,10 +18,9 @@ class HindawiSpider(CrawlSpider):
         for title in response.css('.bookCover'):
             file_url = response.urljoin(title.css('a').attrib['href'])
             file_url = file_url[:-1]  
-            file_url = file_url + '.pdf'
+            file_url = file_url + '.epub'
             
             item = ScrapyspiderItem()
             item['file_urls'] = [file_url]
             self.logger.info(file_url)
-            self.logger.info("xXXXXXXXXXXXXXXXXx")
             yield item
