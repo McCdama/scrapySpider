@@ -1,6 +1,6 @@
 # DOWNLOAD PDF FILES WITH SCRAPY CRAWL SPIDER
 
-Download all books from [Hindawi organization's website](https://www.hindawi.org/) in multiple formats.
+Download specific book category from [Hindawi organization's website](https://www.hindawi.org/) in various formats.
 
 ## Prerequisites
 
