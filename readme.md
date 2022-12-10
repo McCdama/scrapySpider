@@ -10,20 +10,20 @@ Download specific book category from [Hindawi organization's website](https://ww
 > Open terminal inside the project's folder
 
 ### Installing
-```
 Clone the repository:
+
+```
 git clone git@github.com:McCdama/scrapySpider.git
 
 ```
 ### Installing
-```
 Open the terminal inside the root project:
-
+```
 pip install scrapy
 ```
 ### Running Project
-```
 Run:
+```
 scrapy crawl hindawi
 ```
 
