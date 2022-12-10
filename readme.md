@@ -14,7 +14,6 @@ Clone the repository:
 
 ```
 git clone git@github.com:McCdama/scrapySpider.git
-
 ```
 ### Installing
 Open the terminal inside the root project:
