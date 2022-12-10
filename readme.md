@@ -9,7 +9,7 @@ Download specific book category from [Hindawi organization's website](https://ww
 
 > Open terminal inside the project's folder
 
-### Installing
+### Clonning
 Clone the repository:
 
 ```
