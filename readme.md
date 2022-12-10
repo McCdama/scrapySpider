@@ -11,16 +11,26 @@ Download specific book category from [Hindawi organization's website](https://ww
 
 ### Installing
 ```
+Clone the repository:
+git clone git@github.com:McCdama/scrapySpider.git
+
+```
+### Installing
+```
+Open the terminal inside the root project:
+
 pip install scrapy
 ```
 ### Running Project
 ```
+Run:
 scrapy crawl hindawi
 ```
 
 ### Additional
 > To scrap another category change in <code>hindawi.py</code> <strong>both lines</strong> [`Line 11`](https://github.com/McCdama/scrapySpider/blob/0c3d4677b65d58f2fec507318bebcd99f69be080/scrapySpider/spiders/hindawi.py#L11) <strong>and</strong> [`Line 14`](https://github.com/McCdama/scrapySpider/blob/0c3d4677b65d58f2fec507318bebcd99f69be080/scrapySpider/spiders/hindawi.py#L14) to the desired link categotry.
 
+> The downloaded files will be located inside the so called "DownloadsFolders" in the root project 
 
 > Supported extension formats are following: <strong>.kfx</strong>, <strong>.pdf</strong> and <strong>.epub</strong>
 
